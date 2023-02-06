@@ -39,3 +39,21 @@ cell=${cell/-} // this will remove just one dash
 // to remove all dashes permanently
 cell=${cell//-}
 
+### To convert letters from/to capital/lower to lower/capital
+legend="john nash"
+
+actor="JULIA ROBORT"
+
+echo ${legend^^} // all capitals
+
+echo ${actor,,} // all lower
+
+echo ${legend^} // to capitalize first one 
+
+echo ${legend^^[jn]} // To capitalize first letter of both strings
+
+echo ${actor,} // To lower just one
+
+echo ${actor,,[OBE]} // to lower just OBE 
+echo ${actor,,[JR]} // TO lower just jr in actor variable
+
