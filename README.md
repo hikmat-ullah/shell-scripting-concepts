@@ -1,6 +1,13 @@
 # shell-scripting-concepts
 ## Its all about shell scripting concepts
 
+### How to find substring
+
+distro="Ubuntu CentOS Kali"
+
+expr index "$sub_str" "COOOOl"
+
+
 ### how to replace strings in a shell script
 
 distro="Fedora is a free popular operating system"
