@@ -1,7 +1,7 @@
 # shell-scripting-concepts
 ## Its all about shell scripting concepts
 
-### how to replace strings in shell a script
+### how to replace strings in a shell script
 
 distro="Fedora is a free popular operating system"
 
